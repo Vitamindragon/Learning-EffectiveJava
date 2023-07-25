@@ -1,22 +1,7 @@
 package org.modernjava.e01;
 
 /**
- * 객체지향을 적용한 Calculator Application
- * ㅁ 코드가 변경에 용의하고 테스트코드 작성할때 편리하다.
  *
- * First-Class Citizen
- * 조건1.Element를 메소드 인자로 넘겨줄 수 있다.
- * ex) Element el = new ~
- * callMethod(Element el)
- *
- * 조건2.메소드 결과값으로 Element를 받을 수 있다.
- * ex) Element result =
- * callMethod(Element el)
- *
- * 조건3.DataStructure 안에 Element를 저장할 수 있어야한다.
- * ex) List<Element> list = Arrays.asList(el,result);
- *
- * 자바에서는 Object가 First-Class Citizen인데 java8부터 Method도 First-Class Method를 지원함
  * @author VitaminDraogn
  * @since 2023-07-17
  */
